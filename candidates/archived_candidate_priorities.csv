@@ -1,0 +1,86 @@
+phage,locus_tag,candidate_tier,length_aa,product
+phiEaP-33,phiEaP-33_0029,1,161,Phage tail fibers
+phiEaP-33,phiEaP-33_0036,2,740,hypothetical protein
+phiEaP-33,phiEaP-33_0046,2,502,hypothetical protein
+phiEaP-33,phiEaP-33_0042,2,494,hypothetical protein
+phiEaP-33,phiEaP-33_0039,3,361,hypothetical protein
+phiEaP-33,phiEaP-33_0045,3,357,hypothetical protein
+phiEaP-33,phiEaP-33_0037,3,275,hypothetical protein
+phiEaP-33,phiEaP-33_0047,3,244,hypothetical protein
+phiEaSP1,EaSP1_066,1,1240,tail fiber
+phiEaSP1,EaSP1_072,3,388,baseplate assembly protein
+phiEaSP1,EaSP1_067,3,361,baseplate hub protein
+phiEaSP1,EaSP1_070,3,258,baseplate assembly protein
+phiEaSP1,EaSP1_076,3,210,hypothetical protein
+phiEaSP3,EaSP3_066,1,916,EPS depolymerase
+phiEaSP3,EaSP3_068,1,874,tail fibers
+phiEaSP3,EaSP3_010,1,463,STEC autoagglutinating adhesin
+phiEaSP3,EaSP3_065,1,198,Tail fiber assembly protein
+phiEaSP3,EaSP3_131,2,756,hypothetical protein
+phiEaSP3,EaSP3_124,2,678,hypothetical protein
+phiEaSP3,EaSP3_224,2,675,hypothetical protein
+phiEaSP3,EaSP3_062,2,653,hypothetical protein
+phiEaSP3,EaSP3_181,2,617,cell wall-associated hydrolases (invasion-associated proteins)
+phiEaSP3,EaSP3_059,2,591,gp6 baseplate wedge subunit
+phiEaSP3,EaSP3_160,2,541,hypothetical protein
+phiEaSP3,EaSP3_197,2,476,hypothetical protein
+phiEaSP3,EaSP3_225,2,467,hypothetical protein
+phiEaSP3,EaSP3_055,2,428,hypothetical protein
+phiEaSP3,EaSP3_037,2,416,hypothetical protein
+phiEaSP3,EaSP3_121,2,406,hypothetical protein
+phiEaSP3,EaSP3_209,3,395,hypothetical protein
+phiEaSP3,EaSP3_061,3,388,hypothetical protein
+phiEaSP3,EaSP3_042,3,294,hypothetical protein
+phiEaSP3,EaSP3_227,3,291,gp48 baseplate tail tube cap
+phiEaSP3,EaSP3_064,3,288,hypothetical protein
+phiEaSP3,EaSP3_195,3,282,hypothetical protein
+phiEaSP3,EaSP3_128,3,279,hypothetical protein
+phiEaSP3,EaSP3_057,3,270,hypothetical protein
+phiEaSP3,EaSP3_144,3,269,hypothetical protein
+phiEaSP3,EaSP3_183,3,260,gp26 baseplate hub subunit
+phiEaSP3,EaSP3_143,3,259,hypothetical protein
+phiEaSP3,EaSP3_148,3,257,hypothetical protein
+phiEaSP3,EaSP3_060,3,253,hypothetical protein
+phiEaSP3,EaSP3_113,3,248,hypothetical protein
+phiEaSP3,EaSP3_045,3,243,hypothetical protein
+phiEaSP3,EaSP3_107,3,242,hypothetical protein
+phiEaSP3,EaSP3_214,3,241,hypothetical protein
+phiEaSP3,EaSP3_100,3,238,hypothetical protein
+phiEaSP3,EaSP3_054,3,232,hypothetical protein
+phiEaSP3,EaSP3_108,3,223,hypothetical protein
+phiEaSP3,EaSP3_198,3,216,hypothetical protein
+phiEaSP3,EaSP3_036,3,213,hypothetical protein
+phiEaSP3,EaSP3_163,3,212,hypothetical protein
+phiEaSP3,EaSP3_212,3,209,hypothetical protein
+phiEaSP3,EaSP3_048,3,202,hypothetical protein
+phiPccP-2,phiPccP-2_246,1,1216,Phage long tail fiber proximal subunit
+phiPccP-2,phiPccP-2_178,1,481,Phage tail fibers
+phiPccP-2,phiPccP-2_175,1,287,Phage baseplate wedge tail fiber connector (T4-like gp9)
+phiPccP-2,phiPccP-2_187,1,161,Phage tail fibers
+phiPccP-2,phiPccP-2_197,1,90,chaperone for tail fiber formation
+phiPccP-2,phiPccP-2_173,2,1024,Phage baseplate wedge subunit
+phiPccP-2,phiPccP-2_171,2,689,hypothetical protein
+phiPccP-2,phiPccP-2_172,2,634,Phage baseplate wedge subunit (T4-like gp6)
+phiPccP-2,phiPccP-2_176,2,602,Phage baseplate wedge subunit and tail pin (T4-like gp10)
+phiPccP-2,phiPccP-2_104,2,567,hypothetical protein
+phiPccP-2,phiPccP-2_170,2,536,Phage baseplate hub
+phiPccP-2,phiPccP-2_107,3,362,Phage baseplate hub
+phiPccP-2,phiPccP-2_103,3,354,Phage baseplate tail tube cap (T4-like gp48)
+phiPccP-2,phiPccP-2_174,3,329,Phage baseplate wedge subunit (T4-like gp8)
+phiPccP-2,phiPccP-2_236,3,303,hypothetical protein
+phiPccP-2,phiPccP-2_102,3,286,Phage baseplate tail tube initiator
+phiPccP-2,phiPccP-2_155,3,280,hypothetical protein
+phiPccP-2,phiPccP-2_156,3,279,hypothetical protein
+phiPccP-2,phiPccP-2_121,3,258,hypothetical protein
+phiPccP-2,phiPccP-2_243,3,254,hypothetical protein
+phiPccP-2,phiPccP-2_210,3,250,hypothetical protein
+phiPccP-2,phiPccP-2_131,3,217,hypothetical protein
+phiPccP-2,phiPccP-2_186,3,203,hypothetical protein
+phiPccP-2,phiPccP-2_235,3,201,hypothetical protein
+phiPccP-3,phiPccP-3_064,1,1437,Phage tail fibers
+phiPccP-3,phiPccP-3_067,1,1238,Phage tail fiber protein
+phiPccP-3,phiPccP-3_058,1,295,Phage tail fibers
+phiPccP-3,phiPccP-3_051,1,249,Phage tail fibers
+phiPccP-3,phiPccP-3_096,2,251,NAD-dependent protein deacetylase of SIR2 family
+phiPccP-3,phiPccP-3_004,2,204,Phosphoesterase
+phiPccP-3,phiPccP-3_065,3,314,hypothetical protein

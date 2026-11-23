@@ -2,14 +2,27 @@
 
 Companion code and numerical data for *Computational prediction and experimental validation of host requirements for receptor recognition by Pectobacterium phage PeC1*.
 
-This repository covers genome quality control, assembly depth, benchmark scoring and two model-confidence analyses. Reviewers can read the files on GitHub or download them using **Code → Download ZIP**, without signing in.
+This repository contains study code and archived data for the benchmark nominations, structure models, docking scores and PeC1 assembly statistics. Reviewers can [download the review-v2 snapshot](https://github.com/hyuck1857/PeC1-analysis/archive/refs/tags/review-v2.zip) without signing in.
+
+## Trace a result back to its inputs
+
+| Manuscript result | Files and scope |
+| --- | --- |
+| Five nominations in Table S1 | [Candidate records and ordering code](candidates/). The cohort lists all 859 CDS records and identifies the 85 originally nominated candidates. Applying the historical sort to their recorded priorities and lengths recovers all five Table S1 entries. The initial priority assignment is upstream of this check. |
+| Structure prediction and confidence | [Original structure helpers and model summaries](structure/). The functions include single-protein AlphaFold Server job specification, the archived ESMFold request, structure-file conversion and model-confidence extraction. Numerical summaries for all five models in each of 31 calibration jobs allow the reviewer to repeat top-model selection offline. |
+| Docking repeatability | [Docking output readers and seed statistics](docking/). The archived code excerpts read Vina and Amber outputs and summarize the variation across random seeds. |
+| Tier 3 scores and calls | [Final Supplementary Data S1](data/Supplementary_data_S1_v16_20261102.xlsx) and [workbook checker](scripts/check_supplementary_s1.py). The checker starts with all 1,232 recorded docking scores, verifies 154 minima and standardized scores, and reconstructs 33 candidate-level calls and all 15 phage-level selections across the three panel conditions. |
 
 ## Reproduce the reported summaries
 
-Run these commands from the repository directory. The benchmark and interface checks use only the Python standard library. The correlation calculation uses NumPy. The genome QC utility uses Biopython.
+Run these commands from the repository directory. The review checks were tested with Python 3.9.0 and the versions in `requirements.txt`.
 
 ```sh
 python -m pip install -r requirements.txt
+python candidates/check_table_s1.py
+python structure/model_files.py replay
+python scripts/check_supplementary_s1.py
+python docking/check_seed_variation.py
 python scripts/check_benchmark.py
 python scripts/check_interface_confidence.py
 python scripts/model_confidence.py
@@ -37,4 +50,4 @@ The script writes one CSV row with sequence length, GC percentage, CDS count, su
 
 The genome QC, ipTM group summaries and pLDDT correlation preserve calculations from the study scripts `s01_inventory_qc_annotation.py`, `06_parse_calibration_results.py` and `make_figs_a.py`, respectively. They have standalone entry points for reviewers. The Table 2 checker was written for this deposit to apply the final scoring rule to the reported calls. It accepts either colanic acid or LPS for phiPccP-2 and excludes the two ungraded phages from the denominator.
 
-The deposit starts from recorded calls and model scores for the benchmark checks. Upstream candidate nomination, structure generation, docking runs and the full receptor-prediction workflow are outside its scope.
+The component READMEs identify original functions and later verification code. For candidate selection, the reproducible starting point is the archived list with assigned priorities. For docking, it is the archived outputs and individual scores. The genome-to-candidate prioritization pipeline and the workflow that prepares targets and executes new docking runs are not deposited. The structure section identifies which operations were verified offline and which originally used external services.
