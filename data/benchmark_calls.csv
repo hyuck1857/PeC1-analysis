@@ -1,0 +1,6 @@
+phage,accepted_classes,tier1_control,tier2,tier3_original,tier3_control,tier3_sensitivity
+phiEaSP1,LPS,LPS,LPS,EPS,LPS,EPS
+phiEaSP3,,not used,LPS,colanic,colanic,colanic
+phiEaP-21,cellulose,cellulose,cellulose,cellulose,EPS,EPS
+phiPccP-2,colanic|LPS,colanic,colanic,LPS,LPS,LPS
+phiPccP-3,,not used,weak/none,EPS,cellulose,cellulose
